@@ -7,8 +7,8 @@ public class ShrinkArray {
 			if (i == index){
 				continue;
 			}
-		temp[j] = photos[i];
-		j++;	
+			temp[j] = photos[i];
+			j++;	
 		}
 		return temp;
 	}
@@ -19,8 +19,8 @@ public class ShrinkArray {
 			if (i == index){
 				continue;
 			}
-		temp[j] = answers[i];
-		j++;	
+			temp[j] = answers[i];
+			j++;	
 		}
 		return temp;
 	}
@@ -31,11 +31,11 @@ public class ShrinkArray {
 			if (i == index){
 				continue;
 			}
-		temp[j][0] = choices[i][0];
-		temp[j][1] = choices[i][1];
-		temp[j][2] = choices[i][2];
-		temp[j][3] = choices[i][3];
-		j++;	
+			temp[j][0] = choices[i][0];
+			temp[j][1] = choices[i][1];
+			temp[j][2] = choices[i][2];
+			temp[j][3] = choices[i][3];
+			j++;	
 		}
 		return temp;
 	}
